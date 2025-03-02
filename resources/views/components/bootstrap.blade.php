@@ -17,7 +17,7 @@
 <body id="html-body">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href=" {{ route('MRS.index') }}">
                 <i class="bi-bootstrap-fill" width="40" height="32"></i>
                 Maintenance Request System INC.
             </a>
@@ -29,8 +29,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href=" {{ route('MRS.bps') }} ">หน้าหลัก</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href=" {{ route('MRS.bps') }} ">ฟอร์มสมัครทุน</a>
+                    </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">

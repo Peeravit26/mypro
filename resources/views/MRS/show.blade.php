@@ -10,22 +10,26 @@
             <img src="{{ $MRS->photo }}" class="img-fluid img-thumbnail" />
         </div>
         <div class="col-lg-8">
-            <h2>ปัญหาที่แจ้ง :</h2>
-            <h3>{{ $MRS->title }}</h3>
+            <div class="row">
+                <span class="fs-2 text-warning">สถานะ : รับเรื่องแล้ว</span>
+            </div>
+            <h4>ปัญหาที่แจ้ง :</h4>
+            <span>{{ $MRS->title }}</span>
             <hr />
             <div>
-                <h2>วันที่แจ้ง :</h2>
-                {{ $MRS->repdate }} 
+                <h4>วันที่แจ้ง :</h4>
+                <span> {{ $MRS->repdate }} </span>
+                
             </div>
 
             <hr />
             <div>
-                <strong>ที่อยู่: </strong>
-                <span class="fs-2 text-warning">{{ $MRS->addr }}</span>
+                <h4>ที่อยู่:</h4>
+                <span>{{ $MRS->addr }}</span>
             </div>
             <hr />
             <div>
-                <strong>เบอร์โทรติดต่อ: </strong>
+                <h4>เบอร์โทรติดต่อ: </h4>
                 <span>{{ $MRS->phone }}</span>
             </div>
         </div>

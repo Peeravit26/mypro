@@ -13,6 +13,13 @@ class MaintenanceRequestSystemController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    
+        public function bps()
+        {
+            return view('MRS.bps');  // ส่งข้อมูลไปยัง view
+        }
+    
+
     public function index(Request $request)
     {
         // GET SEARCH KEYWORD
