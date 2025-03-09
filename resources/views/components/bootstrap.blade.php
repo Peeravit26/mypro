@@ -33,7 +33,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=" {{ route('MRS.bps') }} ">ฟอร์มสมัครทุน</a>
+                        <a class="nav-link active" aria-current="page" href=" {{ route('MRS.regissc') }} ">ฟอร์มสมัครทุน</a>
                     </li>
 
                     <li class="nav-item dropdown">

@@ -27,3 +27,6 @@ Route::resource('/MRS', MaintenanceRequestSystemController::class );
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/bps', [MaintenanceRequestSystemController::class, 'bps'])->name('MRS.bps');
+
+Route::get('/regissc', [MaintenanceRequestSystemController::class, 'regissc'])->name('MRS.regissc');
+
