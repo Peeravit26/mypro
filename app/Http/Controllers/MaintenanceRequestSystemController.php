@@ -22,7 +22,7 @@ class MaintenanceRequestSystemController extends Controller
         {
             return view('MRS.regissc');  // ส่งข้อมูลไปยัง view
         }
-    
+       
 
     public function index(Request $request)
     {
